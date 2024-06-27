@@ -1,8 +1,9 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_video.h>
+
+#include "SDLInit.h"
 #include <iostream>
 #include <tuple>
-#include "snake.h"
 
 std::tuple<SDL_Window*, SDL_Renderer*> SDLInit::Initialize() {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
@@ -10,7 +11,7 @@ std::tuple<SDL_Window*, SDL_Renderer*> SDLInit::Initialize() {
         return std::make_tuple(nullptr, nullptr);
     }
 
-    SDL_Window *win = SDL_CreateWindow("Hello SDL", 100, 100, 640, 480, SDL_WINDOW_SHOWN | SDL_WINDOW_FULLSCREEN_DESKTOP);
+    SDL_Window *win = SDL_CreateWindow("Hello SDL", 100, 100, 640, 480, SDL_WINDOW_SHOWN);
     if (win == nullptr) {
         std::cout << "SDL_CreateWindow Error: " << SDL_GetError() << std::endl;
         SDL_Quit();

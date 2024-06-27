@@ -1,7 +1,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_keycode.h>
 #include <functional>
-#include "snake.h"
+#include "EventPoller.h"
 
 EventPoller::EventPoller(){
 }
