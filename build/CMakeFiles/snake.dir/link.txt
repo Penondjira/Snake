@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/snake.dir/src/Apple.cpp.o CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o CMakeFiles/snake.dir/src/EventPoller.cpp.o CMakeFiles/snake.dir/src/Quitter.cpp.o CMakeFiles/snake.dir/src/SDLInit.cpp.o CMakeFiles/snake.dir/src/SnakeMotion.cpp.o CMakeFiles/snake.dir/src/main.cpp.o -o snake  /usr/lib/x86_64-linux-gnu/libSDL2.so 

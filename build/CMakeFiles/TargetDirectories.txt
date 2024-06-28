@@ -1,5 +1,0 @@
-/home/tom/projects/snake/build/CMakeFiles/snake.dir
-/home/tom/projects/snake/build/CMakeFiles/runUnitTests.dir
-/home/tom/projects/snake/build/CMakeFiles/test.dir
-/home/tom/projects/snake/build/CMakeFiles/edit_cache.dir
-/home/tom/projects/snake/build/CMakeFiles/rebuild_cache.dir
