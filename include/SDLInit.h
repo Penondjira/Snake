@@ -2,6 +2,7 @@
 #define SDLINIT_H
 
 #include <SDL2/SDL.h>
+#include <tuple>
 
 class SDLInit {
 public: 

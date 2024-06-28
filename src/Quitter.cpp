@@ -1,6 +1,6 @@
 #include <SDL2/SDL.h>
 #include <functional>
-#include "Quitter.h"
+#include "../include/Quitter.h"
 
 void Quitter::HandleQuit() {
     SDL_DestroyRenderer(ren);

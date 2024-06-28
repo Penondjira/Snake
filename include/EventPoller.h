@@ -1,6 +1,7 @@
 #ifndef EVENTPOLLER_H
 #define EVENTPOLLER_H
 
+#include <vector>
 #include <SDL2/SDL.h>
 #include <functional>
 

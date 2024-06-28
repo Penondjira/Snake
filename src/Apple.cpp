@@ -1,11 +1,10 @@
 #include <SDL2/SDL.h>
-#include "Apple.h"
-#include "AppleEatEvent.h"
+#include "../include/Apple.h"
+#include "../include/AppleEatEvent.h"
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
 #include <random>
 #include <cstdlib>
-#include <iostream>
 
 
 Apple::Apple(AppleEatEvent* const &event, const SnakeMotion* &snake, SDL_Window* win, SDL_Renderer* ren, const int squareLength) : event(event), snake(snake), win(win) , ren(ren), squareLength(squareLength) {

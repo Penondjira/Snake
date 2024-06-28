@@ -2,9 +2,9 @@
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
 #include <functional>
-#include "SnakeMotion.h"
+#include "../include/SnakeMotion.h"
 #include <iostream>
-#include "AppleEatEvent.h"
+#include "../include/AppleEatEvent.h"
 
 void SnakeMotion::SetDirection(SDL_Keycode keyCode) {
 	bool isMovingHorizontally = direction[1] == 0;

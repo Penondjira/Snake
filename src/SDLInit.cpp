@@ -1,7 +1,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_video.h>
 
-#include "SDLInit.h"
+#include "../include/SDLInit.h"
 #include <iostream>
 #include <tuple>
 

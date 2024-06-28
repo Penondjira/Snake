@@ -13,7 +13,7 @@ LDFLAGS = $(shell pkg-config --libs sdl2)
 TARGET = snake
 
 # Source files
-SRCS = main.cpp SDLInit.cpp EventPoller.cpp Quitter.cpp SnakeMotion.cpp Apple.cpp AppleEatEvent.cpp
+SRCS = ./src/main.cpp ./src/SDLInit.cpp ./src/EventPoller.cpp ./src/Quitter.cpp ./src/SnakeMotion.cpp ./src/Apple.cpp ./src/AppleEatEvent.cpp
 
 # Object files, just getting the file names ready, not actually compiling yet
 OBJS = $(SRCS:.cpp=.o)

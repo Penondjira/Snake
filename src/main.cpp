@@ -1,13 +1,13 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_timer.h>
-#include "Apple.h"
-#include "AppleEatEvent.h"
-#include "SDLInit.h"
+#include "../include/Apple.h"
+#include "../include/AppleEatEvent.h"
+#include "../include/SDLInit.h"
 #include <SDL2/SDL_video.h>
 #include <tuple>
-#include "EventPoller.h"
-#include "Quitter.h"
-#include "SnakeMotion.h"
+#include "../include/EventPoller.h"
+#include "../include/Quitter.h"
+#include "../include/SnakeMotion.h"
 
 int main(int argc, char* argv[]) {
     SDLInit sdlInitializer;
