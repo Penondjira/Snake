@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(snake)
+# Enable compile commands for clangd
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -30,6 +32,3 @@ add_executable(runUnitTests ${TEST_SOURCES} ${SOURCES})
 # Link Google Test libraries
 target_link_libraries(runUnitTests GTest::gtest GTest::gtest_main pthread ${SDL2_LIBRARIES})
 target_include_directories(runUnitTests PRIVATE ${SDL2_INCLUDE_DIRS})
-
-# Enable compile commands for clangd
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

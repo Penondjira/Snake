@@ -1,5 +1,5 @@
 #include <SDL2/SDL.h>
-#include "Apple.h"
+#include "../include/Apple.h"
 #include "AppleEatEvent.h"
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_video.h>
@@ -36,7 +36,7 @@ bool Apple::IsEaten() {
 
 void Apple::Update(){
         SDL_Rect rect = { applePos[0], applePos[1], squareLength, squareLength };
-        SDL_SetRenderDrawColor(ren, 255, 0, 0, 255);  
+        SDL_SetRenderDrawColor(ren, 255, 0, 0, 255);
         SDL_RenderFillRect(ren, &rect);
 
 	//std::cout << abs(snake.GetPosition()[0] - applePos[0]) << std::endl;
