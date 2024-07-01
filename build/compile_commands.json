@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple.cpp.o -c /home/tom/snake/src/Apple.cpp",
+  "file": "/home/tom/snake/src/Apple.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o -c /home/tom/snake/src/Apple/AppleCreator.cpp",
+  "file": "/home/tom/snake/src/Apple/AppleCreator.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o -c /home/tom/snake/src/Apple/AppleDrawer.cpp",
+  "file": "/home/tom/snake/src/Apple/AppleDrawer.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o -c /home/tom/snake/src/Apple/AppleGO.cpp",
+  "file": "/home/tom/snake/src/Apple/AppleGO.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/Mover.cpp.o -c /home/tom/snake/src/Apple/Mover.cpp",
+  "file": "/home/tom/snake/src/Apple/Mover.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/Mover.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/Rander.cpp.o -c /home/tom/snake/src/Apple/Rander.cpp",
+  "file": "/home/tom/snake/src/Apple/Rander.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/Rander.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o -c /home/tom/snake/src/Apple/SnakeDetector.cpp",
+  "file": "/home/tom/snake/src/Apple/SnakeDetector.cpp",
+  "output": "CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o -c /home/tom/snake/src/AppleEatEvent.cpp",
+  "file": "/home/tom/snake/src/AppleEatEvent.cpp",
+  "output": "CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/EventPoller.cpp.o -c /home/tom/snake/src/EventPoller.cpp",
+  "file": "/home/tom/snake/src/EventPoller.cpp",
+  "output": "CMakeFiles/snake.dir/src/EventPoller.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/PositionManager.cpp.o -c /home/tom/snake/src/PositionManager.cpp",
+  "file": "/home/tom/snake/src/PositionManager.cpp",
+  "output": "CMakeFiles/snake.dir/src/PositionManager.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Quitter.cpp.o -c /home/tom/snake/src/Quitter.cpp",
+  "file": "/home/tom/snake/src/Quitter.cpp",
+  "output": "CMakeFiles/snake.dir/src/Quitter.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/SDLInit.cpp.o -c /home/tom/snake/src/SDLInit.cpp",
+  "file": "/home/tom/snake/src/SDLInit.cpp",
+  "output": "CMakeFiles/snake.dir/src/SDLInit.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/SnakeMotion.cpp.o -c /home/tom/snake/src/SnakeMotion.cpp",
+  "file": "/home/tom/snake/src/SnakeMotion.cpp",
+  "output": "CMakeFiles/snake.dir/src/SnakeMotion.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/main.cpp.o -c /home/tom/snake/src/main.cpp",
+  "file": "/home/tom/snake/src/main.cpp",
+  "output": "CMakeFiles/snake.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/tests/Apple/Test_Rander.cpp.o -c /home/tom/snake/tests/Apple/Test_Rander.cpp",
+  "file": "/home/tom/snake/tests/Apple/Test_Rander.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/tests/Apple/Test_Rander.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.o -c /home/tom/snake/tests/Apple/Test_SnakeDetector.cpp",
+  "file": "/home/tom/snake/tests/Apple/Test_SnakeDetector.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o -c /home/tom/snake/tests/Test_PositionManager.cpp",
+  "file": "/home/tom/snake/tests/Test_PositionManager.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o -c /home/tom/snake/tests/mainTest.cpp",
+  "file": "/home/tom/snake/tests/mainTest.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o -c /home/tom/snake/src/Apple/SnakeDetector.cpp",
+  "file": "/home/tom/snake/src/Apple/SnakeDetector.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o -c /home/tom/snake/src/PositionManager.cpp",
+  "file": "/home/tom/snake/src/PositionManager.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o"
+}
+]

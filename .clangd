@@ -1,2 +1,4 @@
 CompileFlags:
-  Add: [-I/home/tom/snake/include]
+  Add: 
+    - "-I/home/tom/snake/include"
+    - "-I/home/tom/snake/include/Apple"
