@@ -1,10 +1,11 @@
 #ifndef APPLEEATEVENT_H
 #define APPLEEATEVENT_H
 
+#include "INotifyable.h"
 #include <functional>
 #include <vector>
 
-class AppleEatEvent {
+class AppleEatChannel : public INotifyable{
 public:
 	void Subscribe(const std::function<void()>& callback);
 	void Notify() const;

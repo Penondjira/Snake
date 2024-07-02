@@ -258,4 +258,5 @@ CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.o: \
  /usr/include/gtest/gtest-typed-test.h \
  /usr/include/gtest/gtest_pred_impl.h /usr/include/gtest/gtest_prod.h \
  /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
- /home/tom/snake/include/Apple/SnakeDetector.h
+ /home/tom/snake/include/Apple/SnakeDetector.h \
+ /home/tom/snake/include/Apple/ISnakeDetector.h

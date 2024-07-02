@@ -22,8 +22,8 @@ int main(int argc, char* argv[]) {
     EventPoller eventPoller;
     EventPoller* eventPollerPtr = &eventPoller;
     Quitter quitter = Quitter(eventPollerPtr, win, ren);
-    AppleEatEvent appleEatChannel = AppleEatEvent();
-    AppleEatEvent* const appleEatEventPtr = &appleEatChannel;
+    AppleEatChannel appleEatChannel = AppleEatChannel();
+    AppleEatChannel* const appleEatEventPtr = &appleEatChannel;
     SnakeMotion snake = SnakeMotion(eventPollerPtr, win, ren, squareLength, appleEatEventPtr);
     const SnakeMotion* snakePtr = &snake;
     //FIXME: have get position manager function in snake
@@ -31,14 +31,14 @@ int main(int argc, char* argv[]) {
     Pos snakePosStruct;
     snakePosStruct.x = tempSnakePos[0];
     snakePosStruct.y = tempSnakePos[1];
-    PositionManager* snakePos; 
-    snakePos->SetPosition(snakePosStruct);
+    PositionManager snakePos; 
+    snakePos.SetPosition(snakePosStruct);
     int winWidth, winHeight;
     SDL_GetWindowSize(win, &winWidth, &winHeight);
     const int minWidth = squareLength;
     const int minHeight = squareLength;
 
-    AppleCreator appleCreator = AppleCreator(winWidth, winHeight, squareLength, appleEatEventPtr, ren, snakePos);
+    AppleCreator appleCreator = AppleCreator(winWidth, winHeight, squareLength, appleEatEventPtr, ren, &snakePos);
     AppleGO* apple = appleCreator.CreateApple();
 
     while (true) {

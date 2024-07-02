@@ -236,6 +236,7 @@ CMakeFiles/snake.dir/src/Apple.cpp.o: /home/tom/snake/src/Apple.cpp \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/typeinfo \
  /home/tom/snake/src/../include/AppleEatEvent.h \
+ /home/tom/snake/src/../include/INotifyable.h \
  /home/tom/snake/include/AppleEatEvent.h /usr/include/SDL2/SDL_render.h \
  /usr/include/SDL2/SDL_video.h /usr/include/c++/13/random \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \

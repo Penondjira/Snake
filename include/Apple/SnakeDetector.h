@@ -1,6 +1,7 @@
+#include "ISnakeDetector.h"
 #include <PositionManager.h>
 
-class SnakeDetector {
+class SnakeDetector : public ISnakeDetector{
 	public:
 		SnakeDetector(const PositionManager* snakePos, const PositionManager* applePos, const int &squareLength);
 		bool IsEaten() const;

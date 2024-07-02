@@ -199,6 +199,7 @@ CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_timer.h \
  /home/tom/snake/src/../include/AppleEatEvent.h \
+ /home/tom/snake/src/../include/INotifyable.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/bits/move.h /usr/include/c++/13/type_traits \
  /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
@@ -240,33 +241,9 @@ CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp \
  /home/tom/snake/src/../include/SnakeMotion.h \
  /home/tom/snake/src/../include/AppleEatEvent.h \
  /home/tom/snake/include/Apple/AppleCreator.h \
+ /home/tom/snake/include/INotifyable.h \
  /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
- /home/tom/snake/include/AppleEatEvent.h \
  /home/tom/snake/include/Apple/AppleGO.h \
- /home/tom/snake/include/Apple/AppleDrawer.h \
- /home/tom/snake/include/Apple/SnakeDetector.h \
- /home/tom/snake/include/Apple/Mover.h \
- /home/tom/snake/include/Apple/Rander.h /usr/include/c++/13/random \
- /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
- /usr/include/c++/13/bits/char_traits.h \
- /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
- /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/cctype /usr/include/c++/13/bits/ostream_insert.h \
- /usr/include/c++/13/bits/cxxabi_forced.h \
- /usr/include/c++/13/bits/basic_string.h \
- /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/13/bits/charconv.h \
- /usr/include/c++/13/bits/basic_string.tcc /usr/include/c++/13/limits \
- /usr/include/c++/13/cstdint /usr/include/c++/13/bits/random.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
- /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
- /usr/include/c++/13/bits/stl_numeric.h
+ /home/tom/snake/include/IDrawer.h \
+ /home/tom/snake/include/Apple/ISnakeDetector.h \
+ /home/tom/snake/include/Apple/IMover.h

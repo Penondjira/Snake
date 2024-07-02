@@ -27,12 +27,12 @@ find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
 # Automatically find all source files in src, excluding main.cpp
-#file(GLOB_RECURSE NON_MAIN_SOURCES "src/*.cpp")
-#list(REMOVE_ITEM NON_MAIN_SOURCES "${CMAKE_SOURCE_DIR}/src/main.cpp")
-set(NON_MAIN_SOURCES
-	src/Apple/SnakeDetector.cpp
-	src/PositionManager.cpp
-)
+file(GLOB_RECURSE NON_MAIN_SOURCES "src/*.cpp")
+list(REMOVE_ITEM NON_MAIN_SOURCES "${CMAKE_SOURCE_DIR}/src/main.cpp")
+#set(NON_MAIN_SOURCES
+#	src/Apple/SnakeDetector.cpp
+#	src/PositionManager.cpp
+#)
 
 # Add a test executable
 file(GLOB_RECURSE TEST_SOURCES "tests/*.cpp")

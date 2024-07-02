@@ -2,8 +2,9 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o: \
  /home/tom/snake/src/Apple/AppleDrawer.cpp /usr/include/stdc-predef.h \
  /home/tom/snake/include/Apple/AppleDrawer.h \
  /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
- /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
+ /home/tom/snake/include/IDrawer.h /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
+ /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
  /usr/include/SDL2/close_code.h /usr/include/x86_64-linux-gnu/sys/types.h \

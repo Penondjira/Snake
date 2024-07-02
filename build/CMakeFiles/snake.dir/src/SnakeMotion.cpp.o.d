@@ -236,6 +236,7 @@ CMakeFiles/snake.dir/src/SnakeMotion.cpp.o: \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/tom/snake/src/../include/AppleEatEvent.h \
+ /home/tom/snake/src/../include/INotifyable.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \

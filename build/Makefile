@@ -158,6 +158,7 @@ src/Apple.o: src/Apple.cpp.o
 # target to build an object file
 src/Apple.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.o
 .PHONY : src/Apple.cpp.o
 
 src/Apple.i: src/Apple.cpp.i
@@ -166,6 +167,7 @@ src/Apple.i: src/Apple.cpp.i
 # target to preprocess a source file
 src/Apple.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.i
 .PHONY : src/Apple.cpp.i
 
 src/Apple.s: src/Apple.cpp.s
@@ -174,6 +176,7 @@ src/Apple.s: src/Apple.cpp.s
 # target to generate assembly for a file
 src/Apple.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.s
 .PHONY : src/Apple.cpp.s
 
 src/Apple/AppleCreator.o: src/Apple/AppleCreator.cpp.o
@@ -182,6 +185,7 @@ src/Apple/AppleCreator.o: src/Apple/AppleCreator.cpp.o
 # target to build an object file
 src/Apple/AppleCreator.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o
 .PHONY : src/Apple/AppleCreator.cpp.o
 
 src/Apple/AppleCreator.i: src/Apple/AppleCreator.cpp.i
@@ -190,6 +194,7 @@ src/Apple/AppleCreator.i: src/Apple/AppleCreator.cpp.i
 # target to preprocess a source file
 src/Apple/AppleCreator.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.i
 .PHONY : src/Apple/AppleCreator.cpp.i
 
 src/Apple/AppleCreator.s: src/Apple/AppleCreator.cpp.s
@@ -198,6 +203,7 @@ src/Apple/AppleCreator.s: src/Apple/AppleCreator.cpp.s
 # target to generate assembly for a file
 src/Apple/AppleCreator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.s
 .PHONY : src/Apple/AppleCreator.cpp.s
 
 src/Apple/AppleDrawer.o: src/Apple/AppleDrawer.cpp.o
@@ -206,6 +212,7 @@ src/Apple/AppleDrawer.o: src/Apple/AppleDrawer.cpp.o
 # target to build an object file
 src/Apple/AppleDrawer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o
 .PHONY : src/Apple/AppleDrawer.cpp.o
 
 src/Apple/AppleDrawer.i: src/Apple/AppleDrawer.cpp.i
@@ -214,6 +221,7 @@ src/Apple/AppleDrawer.i: src/Apple/AppleDrawer.cpp.i
 # target to preprocess a source file
 src/Apple/AppleDrawer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.i
 .PHONY : src/Apple/AppleDrawer.cpp.i
 
 src/Apple/AppleDrawer.s: src/Apple/AppleDrawer.cpp.s
@@ -222,6 +230,7 @@ src/Apple/AppleDrawer.s: src/Apple/AppleDrawer.cpp.s
 # target to generate assembly for a file
 src/Apple/AppleDrawer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.s
 .PHONY : src/Apple/AppleDrawer.cpp.s
 
 src/Apple/AppleGO.o: src/Apple/AppleGO.cpp.o
@@ -230,6 +239,7 @@ src/Apple/AppleGO.o: src/Apple/AppleGO.cpp.o
 # target to build an object file
 src/Apple/AppleGO.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o
 .PHONY : src/Apple/AppleGO.cpp.o
 
 src/Apple/AppleGO.i: src/Apple/AppleGO.cpp.i
@@ -238,6 +248,7 @@ src/Apple/AppleGO.i: src/Apple/AppleGO.cpp.i
 # target to preprocess a source file
 src/Apple/AppleGO.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.i
 .PHONY : src/Apple/AppleGO.cpp.i
 
 src/Apple/AppleGO.s: src/Apple/AppleGO.cpp.s
@@ -246,6 +257,7 @@ src/Apple/AppleGO.s: src/Apple/AppleGO.cpp.s
 # target to generate assembly for a file
 src/Apple/AppleGO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.s
 .PHONY : src/Apple/AppleGO.cpp.s
 
 src/Apple/Mover.o: src/Apple/Mover.cpp.o
@@ -254,6 +266,7 @@ src/Apple/Mover.o: src/Apple/Mover.cpp.o
 # target to build an object file
 src/Apple/Mover.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Mover.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o
 .PHONY : src/Apple/Mover.cpp.o
 
 src/Apple/Mover.i: src/Apple/Mover.cpp.i
@@ -262,6 +275,7 @@ src/Apple/Mover.i: src/Apple/Mover.cpp.i
 # target to preprocess a source file
 src/Apple/Mover.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Mover.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.i
 .PHONY : src/Apple/Mover.cpp.i
 
 src/Apple/Mover.s: src/Apple/Mover.cpp.s
@@ -270,6 +284,7 @@ src/Apple/Mover.s: src/Apple/Mover.cpp.s
 # target to generate assembly for a file
 src/Apple/Mover.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Mover.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.s
 .PHONY : src/Apple/Mover.cpp.s
 
 src/Apple/Rander.o: src/Apple/Rander.cpp.o
@@ -278,6 +293,7 @@ src/Apple/Rander.o: src/Apple/Rander.cpp.o
 # target to build an object file
 src/Apple/Rander.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Rander.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o
 .PHONY : src/Apple/Rander.cpp.o
 
 src/Apple/Rander.i: src/Apple/Rander.cpp.i
@@ -286,6 +302,7 @@ src/Apple/Rander.i: src/Apple/Rander.cpp.i
 # target to preprocess a source file
 src/Apple/Rander.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Rander.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.i
 .PHONY : src/Apple/Rander.cpp.i
 
 src/Apple/Rander.s: src/Apple/Rander.cpp.s
@@ -294,6 +311,7 @@ src/Apple/Rander.s: src/Apple/Rander.cpp.s
 # target to generate assembly for a file
 src/Apple/Rander.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple/Rander.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.s
 .PHONY : src/Apple/Rander.cpp.s
 
 src/Apple/SnakeDetector.o: src/Apple/SnakeDetector.cpp.o
@@ -329,6 +347,7 @@ src/AppleEatEvent.o: src/AppleEatEvent.cpp.o
 # target to build an object file
 src/AppleEatEvent.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o
 .PHONY : src/AppleEatEvent.cpp.o
 
 src/AppleEatEvent.i: src/AppleEatEvent.cpp.i
@@ -337,6 +356,7 @@ src/AppleEatEvent.i: src/AppleEatEvent.cpp.i
 # target to preprocess a source file
 src/AppleEatEvent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/AppleEatEvent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.i
 .PHONY : src/AppleEatEvent.cpp.i
 
 src/AppleEatEvent.s: src/AppleEatEvent.cpp.s
@@ -345,6 +365,7 @@ src/AppleEatEvent.s: src/AppleEatEvent.cpp.s
 # target to generate assembly for a file
 src/AppleEatEvent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/AppleEatEvent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.s
 .PHONY : src/AppleEatEvent.cpp.s
 
 src/EventPoller.o: src/EventPoller.cpp.o
@@ -353,6 +374,7 @@ src/EventPoller.o: src/EventPoller.cpp.o
 # target to build an object file
 src/EventPoller.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/EventPoller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o
 .PHONY : src/EventPoller.cpp.o
 
 src/EventPoller.i: src/EventPoller.cpp.i
@@ -361,6 +383,7 @@ src/EventPoller.i: src/EventPoller.cpp.i
 # target to preprocess a source file
 src/EventPoller.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/EventPoller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.i
 .PHONY : src/EventPoller.cpp.i
 
 src/EventPoller.s: src/EventPoller.cpp.s
@@ -369,6 +392,7 @@ src/EventPoller.s: src/EventPoller.cpp.s
 # target to generate assembly for a file
 src/EventPoller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/EventPoller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.s
 .PHONY : src/EventPoller.cpp.s
 
 src/PositionManager.o: src/PositionManager.cpp.o
@@ -404,6 +428,7 @@ src/Quitter.o: src/Quitter.cpp.o
 # target to build an object file
 src/Quitter.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Quitter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o
 .PHONY : src/Quitter.cpp.o
 
 src/Quitter.i: src/Quitter.cpp.i
@@ -412,6 +437,7 @@ src/Quitter.i: src/Quitter.cpp.i
 # target to preprocess a source file
 src/Quitter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Quitter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Quitter.cpp.i
 .PHONY : src/Quitter.cpp.i
 
 src/Quitter.s: src/Quitter.cpp.s
@@ -420,6 +446,7 @@ src/Quitter.s: src/Quitter.cpp.s
 # target to generate assembly for a file
 src/Quitter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Quitter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Quitter.cpp.s
 .PHONY : src/Quitter.cpp.s
 
 src/SDLInit.o: src/SDLInit.cpp.o
@@ -428,6 +455,7 @@ src/SDLInit.o: src/SDLInit.cpp.o
 # target to build an object file
 src/SDLInit.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SDLInit.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o
 .PHONY : src/SDLInit.cpp.o
 
 src/SDLInit.i: src/SDLInit.cpp.i
@@ -436,6 +464,7 @@ src/SDLInit.i: src/SDLInit.cpp.i
 # target to preprocess a source file
 src/SDLInit.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SDLInit.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.i
 .PHONY : src/SDLInit.cpp.i
 
 src/SDLInit.s: src/SDLInit.cpp.s
@@ -444,6 +473,7 @@ src/SDLInit.s: src/SDLInit.cpp.s
 # target to generate assembly for a file
 src/SDLInit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SDLInit.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.s
 .PHONY : src/SDLInit.cpp.s
 
 src/SnakeMotion.o: src/SnakeMotion.cpp.o
@@ -452,6 +482,7 @@ src/SnakeMotion.o: src/SnakeMotion.cpp.o
 # target to build an object file
 src/SnakeMotion.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o
 .PHONY : src/SnakeMotion.cpp.o
 
 src/SnakeMotion.i: src/SnakeMotion.cpp.i
@@ -460,6 +491,7 @@ src/SnakeMotion.i: src/SnakeMotion.cpp.i
 # target to preprocess a source file
 src/SnakeMotion.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.i
 .PHONY : src/SnakeMotion.cpp.i
 
 src/SnakeMotion.s: src/SnakeMotion.cpp.s
@@ -468,6 +500,7 @@ src/SnakeMotion.s: src/SnakeMotion.cpp.s
 # target to generate assembly for a file
 src/SnakeMotion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.s
 .PHONY : src/SnakeMotion.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -493,6 +526,78 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+tests/Apple/Test_AppleCreator.o: tests/Apple/Test_AppleCreator.cpp.o
+.PHONY : tests/Apple/Test_AppleCreator.o
+
+# target to build an object file
+tests/Apple/Test_AppleCreator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleCreator.cpp.o
+.PHONY : tests/Apple/Test_AppleCreator.cpp.o
+
+tests/Apple/Test_AppleCreator.i: tests/Apple/Test_AppleCreator.cpp.i
+.PHONY : tests/Apple/Test_AppleCreator.i
+
+# target to preprocess a source file
+tests/Apple/Test_AppleCreator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleCreator.cpp.i
+.PHONY : tests/Apple/Test_AppleCreator.cpp.i
+
+tests/Apple/Test_AppleCreator.s: tests/Apple/Test_AppleCreator.cpp.s
+.PHONY : tests/Apple/Test_AppleCreator.s
+
+# target to generate assembly for a file
+tests/Apple/Test_AppleCreator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleCreator.cpp.s
+.PHONY : tests/Apple/Test_AppleCreator.cpp.s
+
+tests/Apple/Test_AppleGo.o: tests/Apple/Test_AppleGo.cpp.o
+.PHONY : tests/Apple/Test_AppleGo.o
+
+# target to build an object file
+tests/Apple/Test_AppleGo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleGo.cpp.o
+.PHONY : tests/Apple/Test_AppleGo.cpp.o
+
+tests/Apple/Test_AppleGo.i: tests/Apple/Test_AppleGo.cpp.i
+.PHONY : tests/Apple/Test_AppleGo.i
+
+# target to preprocess a source file
+tests/Apple/Test_AppleGo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleGo.cpp.i
+.PHONY : tests/Apple/Test_AppleGo.cpp.i
+
+tests/Apple/Test_AppleGo.s: tests/Apple/Test_AppleGo.cpp.s
+.PHONY : tests/Apple/Test_AppleGo.s
+
+# target to generate assembly for a file
+tests/Apple/Test_AppleGo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_AppleGo.cpp.s
+.PHONY : tests/Apple/Test_AppleGo.cpp.s
+
+tests/Apple/Test_Mover.o: tests/Apple/Test_Mover.cpp.o
+.PHONY : tests/Apple/Test_Mover.o
+
+# target to build an object file
+tests/Apple/Test_Mover.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_Mover.cpp.o
+.PHONY : tests/Apple/Test_Mover.cpp.o
+
+tests/Apple/Test_Mover.i: tests/Apple/Test_Mover.cpp.i
+.PHONY : tests/Apple/Test_Mover.i
+
+# target to preprocess a source file
+tests/Apple/Test_Mover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_Mover.cpp.i
+.PHONY : tests/Apple/Test_Mover.cpp.i
+
+tests/Apple/Test_Mover.s: tests/Apple/Test_Mover.cpp.s
+.PHONY : tests/Apple/Test_Mover.s
+
+# target to generate assembly for a file
+tests/Apple/Test_Mover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_Mover.cpp.s
+.PHONY : tests/Apple/Test_Mover.cpp.s
 
 tests/Apple/Test_Rander.o: tests/Apple/Test_Rander.cpp.o
 .PHONY : tests/Apple/Test_Rander.o
@@ -541,6 +646,30 @@ tests/Apple/Test_SnakeDetector.s: tests/Apple/Test_SnakeDetector.cpp.s
 tests/Apple/Test_SnakeDetector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.s
 .PHONY : tests/Apple/Test_SnakeDetector.cpp.s
+
+tests/MockNotifyable.o: tests/MockNotifyable.cpp.o
+.PHONY : tests/MockNotifyable.o
+
+# target to build an object file
+tests/MockNotifyable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.o
+.PHONY : tests/MockNotifyable.cpp.o
+
+tests/MockNotifyable.i: tests/MockNotifyable.cpp.i
+.PHONY : tests/MockNotifyable.i
+
+# target to preprocess a source file
+tests/MockNotifyable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.i
+.PHONY : tests/MockNotifyable.cpp.i
+
+tests/MockNotifyable.s: tests/MockNotifyable.cpp.s
+.PHONY : tests/MockNotifyable.s
+
+# target to generate assembly for a file
+tests/MockNotifyable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.s
+.PHONY : tests/MockNotifyable.cpp.s
 
 tests/Test_PositionManager.o: tests/Test_PositionManager.cpp.o
 .PHONY : tests/Test_PositionManager.o
@@ -643,12 +772,24 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/Apple/Test_AppleCreator.o"
+	@echo "... tests/Apple/Test_AppleCreator.i"
+	@echo "... tests/Apple/Test_AppleCreator.s"
+	@echo "... tests/Apple/Test_AppleGo.o"
+	@echo "... tests/Apple/Test_AppleGo.i"
+	@echo "... tests/Apple/Test_AppleGo.s"
+	@echo "... tests/Apple/Test_Mover.o"
+	@echo "... tests/Apple/Test_Mover.i"
+	@echo "... tests/Apple/Test_Mover.s"
 	@echo "... tests/Apple/Test_Rander.o"
 	@echo "... tests/Apple/Test_Rander.i"
 	@echo "... tests/Apple/Test_Rander.s"
 	@echo "... tests/Apple/Test_SnakeDetector.o"
 	@echo "... tests/Apple/Test_SnakeDetector.i"
 	@echo "... tests/Apple/Test_SnakeDetector.s"
+	@echo "... tests/MockNotifyable.o"
+	@echo "... tests/MockNotifyable.i"
+	@echo "... tests/MockNotifyable.s"
 	@echo "... tests/Test_PositionManager.o"
 	@echo "... tests/Test_PositionManager.i"
 	@echo "... tests/Test_PositionManager.s"

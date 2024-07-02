@@ -8,13 +8,13 @@
 
 class Apple {
 public:	
-	Apple(AppleEatEvent* const &event, const SnakeMotion* &snake, SDL_Window* win, SDL_Renderer* ren, const int squareLength);
+	Apple(AppleEatChannel* const &event, const SnakeMotion* &snake, SDL_Window* win, SDL_Renderer* ren, const int squareLength);
 	void SpawnApple();
 	void Update();
 
 private:
 	bool IsEaten();
-	AppleEatEvent* const event;
+	AppleEatChannel* const event;
 	const SnakeMotion* snake;
 	std::vector<int> applePos;
 	bool isSpawned;

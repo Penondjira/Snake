@@ -1,6 +1,7 @@
 CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o: \
  /home/tom/snake/src/Apple/SnakeDetector.cpp /usr/include/stdc-predef.h \
  /home/tom/snake/include/Apple/SnakeDetector.h \
+ /home/tom/snake/include/Apple/ISnakeDetector.h \
  /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
  /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

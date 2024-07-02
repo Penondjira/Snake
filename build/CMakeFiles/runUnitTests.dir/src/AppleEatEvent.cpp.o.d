@@ -23,7 +23,8 @@ CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o: \
  /usr/include/c++/13/bits/exception.h /usr/include/c++/13/typeinfo \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
- /home/tom/snake/include/AppleEatEvent.h /usr/include/c++/13/vector \
+ /home/tom/snake/include/AppleEatEvent.h \
+ /home/tom/snake/include/INotifyable.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \

@@ -6,7 +6,7 @@
 #include <random>
 #include <cstdlib>
 
-Apple::Apple(AppleEatEvent* const &event, const SnakeMotion* &snake, SDL_Window* win, SDL_Renderer* ren, const int squareLength) : event(event), snake(snake), win(win) , ren(ren), squareLength(squareLength) {
+Apple::Apple(AppleEatChannel* const &event, const SnakeMotion* &snake, SDL_Window* win, SDL_Renderer* ren, const int squareLength) : event(event), snake(snake), win(win) , ren(ren), squareLength(squareLength) {
 	applePos = {0, 0};
 }
 

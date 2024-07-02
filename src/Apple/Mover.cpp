@@ -1,6 +1,6 @@
 #include "Mover.h"
 
-Mover::Mover(const int &winWidth, const int &winHeight, const int &squareSize, Rander* &rander, PositionManager* applePos)
+Mover::Mover(const int &winWidth, const int &winHeight, const int &squareSize, Rander* rander, PositionManager* applePos)
 	: winWidth(winWidth), winHeight(winHeight), squareSize(squareSize), rander(rander), applePos(applePos){
 }
 

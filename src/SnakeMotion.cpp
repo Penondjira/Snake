@@ -52,7 +52,7 @@ void SnakeMotion::Update() {
         SDL_RenderFillRect(ren, &rect);
 }
 
-SnakeMotion::SnakeMotion(EventPoller* eventPoller, SDL_Window* win, SDL_Renderer* ren, int squareLength, AppleEatEvent* const &appleEatEvent) : win(win) , ren(ren), squareLength(squareLength), appleEatEvent(appleEatEvent) {
+SnakeMotion::SnakeMotion(EventPoller* eventPoller, SDL_Window* win, SDL_Renderer* ren, int squareLength, AppleEatChannel* const &appleEatEvent) : win(win) , ren(ren), squareLength(squareLength), appleEatEvent(appleEatEvent) {
 	eventPoller->SubscribeToKeyDown([this](SDL_Keycode keyCode) { SetDirection(keyCode);});
 	appleEatEvent->Subscribe([this]() { HandleAppleEaten();});
 	direction = {0,0};

@@ -8,7 +8,7 @@
 
 class SnakeMotion {
 public:
-	SnakeMotion(EventPoller* eventPoller, SDL_Window* win, SDL_Renderer* ren, int squareLength, AppleEatEvent* const &appleEatEvent);
+	SnakeMotion(EventPoller* eventPoller, SDL_Window* win, SDL_Renderer* ren, int squareLength, AppleEatChannel* const &appleEatEvent);
 	std::vector<int> GetPosition() const;
 	void Update();
 
@@ -20,7 +20,7 @@ private:
 	SDL_Window* win;
 	SDL_Renderer* ren;
 	int squareLength;
-	AppleEatEvent* const appleEatEvent;
+	AppleEatChannel* const appleEatEvent;
 
 };
 
