@@ -9,11 +9,12 @@
 #include "HeadUpdater.h"
 #include "SnakeDrawer.h"
 
-class SnakeMotion {
+class SnakeGO {
 public:
-	SnakeMotion(HeadUpdater* const headUpdater, const SnakeDrawer* const snakeDrawer, AppleEatChannel* const &appleEatEvent, std::vector<Pos>* const pos, TailRemover* const tailRemover);
+	SnakeGO(HeadUpdater* const headUpdater, const SnakeDrawer* const snakeDrawer, AppleEatChannel* const &appleEatEvent, std::vector<Pos>* const pos, TailRemover* const tailRemover);
 	std::vector<Pos>* GetPositions() const;
 	void Update();
+	~SnakeGO();
 
 private:
 	void HandleAppleEaten();

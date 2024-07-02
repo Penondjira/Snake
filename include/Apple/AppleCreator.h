@@ -3,7 +3,6 @@
 
 #include <SDL2/SDL.h>
 #include "INotifyable.h"
-#include "PositionManager.h"
 #include <vector>
 #include "AppleGO.h"
 #include "Pos.h"
