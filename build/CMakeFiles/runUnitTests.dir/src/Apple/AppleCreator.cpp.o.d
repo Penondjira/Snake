@@ -199,7 +199,6 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /home/tom/snake/include/INotifyable.h \
- /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
@@ -233,6 +232,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o: \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/tom/snake/include/Apple/AppleGO.h \
+ /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
  /home/tom/snake/include/IDrawer.h \
  /home/tom/snake/include/Apple/ISnakeDetector.h \
  /home/tom/snake/include/Apple/IMover.h /home/tom/snake/include/Pos.h \

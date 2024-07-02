@@ -530,6 +530,33 @@ src/Snake/HeadUpdater.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.s
 .PHONY : src/Snake/HeadUpdater.cpp.s
 
+src/Snake/SnakeCreator.o: src/Snake/SnakeCreator.cpp.o
+.PHONY : src/Snake/SnakeCreator.o
+
+# target to build an object file
+src/Snake/SnakeCreator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.o
+.PHONY : src/Snake/SnakeCreator.cpp.o
+
+src/Snake/SnakeCreator.i: src/Snake/SnakeCreator.cpp.i
+.PHONY : src/Snake/SnakeCreator.i
+
+# target to preprocess a source file
+src/Snake/SnakeCreator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.i
+.PHONY : src/Snake/SnakeCreator.cpp.i
+
+src/Snake/SnakeCreator.s: src/Snake/SnakeCreator.cpp.s
+.PHONY : src/Snake/SnakeCreator.s
+
+# target to generate assembly for a file
+src/Snake/SnakeCreator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.s
+.PHONY : src/Snake/SnakeCreator.cpp.s
+
 src/Snake/SnakeDrawer.o: src/Snake/SnakeDrawer.cpp.o
 .PHONY : src/Snake/SnakeDrawer.o
 
@@ -557,6 +584,33 @@ src/Snake/SnakeDrawer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.s
 .PHONY : src/Snake/SnakeDrawer.cpp.s
 
+src/Snake/SnakeGO.o: src/Snake/SnakeGO.cpp.o
+.PHONY : src/Snake/SnakeGO.o
+
+# target to build an object file
+src/Snake/SnakeGO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeGO.cpp.o
+.PHONY : src/Snake/SnakeGO.cpp.o
+
+src/Snake/SnakeGO.i: src/Snake/SnakeGO.cpp.i
+.PHONY : src/Snake/SnakeGO.i
+
+# target to preprocess a source file
+src/Snake/SnakeGO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeGO.cpp.i
+.PHONY : src/Snake/SnakeGO.cpp.i
+
+src/Snake/SnakeGO.s: src/Snake/SnakeGO.cpp.s
+.PHONY : src/Snake/SnakeGO.s
+
+# target to generate assembly for a file
+src/Snake/SnakeGO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeGO.cpp.s
+.PHONY : src/Snake/SnakeGO.cpp.s
+
 src/Snake/TailRemover.o: src/Snake/TailRemover.cpp.o
 .PHONY : src/Snake/TailRemover.o
 
@@ -583,33 +637,6 @@ src/Snake/TailRemover.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.s
 .PHONY : src/Snake/TailRemover.cpp.s
-
-src/SnakeMotion.o: src/SnakeMotion.cpp.o
-.PHONY : src/SnakeMotion.o
-
-# target to build an object file
-src/SnakeMotion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o
-.PHONY : src/SnakeMotion.cpp.o
-
-src/SnakeMotion.i: src/SnakeMotion.cpp.i
-.PHONY : src/SnakeMotion.i
-
-# target to preprocess a source file
-src/SnakeMotion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.i
-.PHONY : src/SnakeMotion.cpp.i
-
-src/SnakeMotion.s: src/SnakeMotion.cpp.s
-.PHONY : src/SnakeMotion.s
-
-# target to generate assembly for a file
-src/SnakeMotion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/SnakeMotion.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.s
-.PHONY : src/SnakeMotion.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -952,15 +979,18 @@ help:
 	@echo "... src/Snake/HeadUpdater.o"
 	@echo "... src/Snake/HeadUpdater.i"
 	@echo "... src/Snake/HeadUpdater.s"
+	@echo "... src/Snake/SnakeCreator.o"
+	@echo "... src/Snake/SnakeCreator.i"
+	@echo "... src/Snake/SnakeCreator.s"
 	@echo "... src/Snake/SnakeDrawer.o"
 	@echo "... src/Snake/SnakeDrawer.i"
 	@echo "... src/Snake/SnakeDrawer.s"
+	@echo "... src/Snake/SnakeGO.o"
+	@echo "... src/Snake/SnakeGO.i"
+	@echo "... src/Snake/SnakeGO.s"
 	@echo "... src/Snake/TailRemover.o"
 	@echo "... src/Snake/TailRemover.i"
 	@echo "... src/Snake/TailRemover.s"
-	@echo "... src/SnakeMotion.o"
-	@echo "... src/SnakeMotion.i"
-	@echo "... src/SnakeMotion.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

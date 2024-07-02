@@ -198,12 +198,12 @@ CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_timer.h \
- /home/tom/snake/src/../include/AppleEatEvent.h \
- /home/tom/snake/src/../include/INotifyable.h \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
- /usr/include/c++/13/bits/move.h /usr/include/c++/13/type_traits \
- /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
- /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
+ /home/tom/snake/include/AppleEatEvent.h \
+ /home/tom/snake/include/INotifyable.h /usr/include/c++/13/functional \
+ /usr/include/c++/13/bits/stl_function.h /usr/include/c++/13/bits/move.h \
+ /usr/include/c++/13/type_traits /usr/include/c++/13/backward/binders.h \
+ /usr/include/c++/13/tuple /usr/include/c++/13/bits/stl_pair.h \
+ /usr/include/c++/13/bits/utility.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/invoke.h \
  /usr/include/c++/13/bits/functional_hash.h \
@@ -233,28 +233,21 @@ CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp \
  /usr/include/c++/13/initializer_list \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/bits/vector.tcc \
- /home/tom/snake/src/../include/SDLInit.h /usr/include/SDL2/SDL_video.h \
- /home/tom/snake/src/../include/EventPoller.h \
- /home/tom/snake/src/../include/IKeyDownChannel.h \
- /home/tom/snake/src/../include/Quitter.h \
- /home/tom/snake/src/../include/EventPoller.h \
- /home/tom/snake/include/Snake/DirectionManager.h \
- /home/tom/snake/include/Snake/IDirectionManager.h \
+ /usr/include/c++/13/bits/vector.tcc /home/tom/snake/include/SDLInit.h \
+ /usr/include/SDL2/SDL_video.h /home/tom/snake/include/EventPoller.h \
  /home/tom/snake/include/IKeyDownChannel.h \
- /home/tom/snake/include/Snake/HeadUpdater.h \
- /home/tom/snake/include/Pos.h \
- /home/tom/snake/include/Snake/SnakeDrawer.h \
- /home/tom/snake/include/Snake/SnakeMotion.h \
- /home/tom/snake/include/AppleEatEvent.h \
+ /home/tom/snake/include/Quitter.h /home/tom/snake/include/EventPoller.h \
+ /home/tom/snake/include/Snake/SnakeCreator.h \
+ /home/tom/snake/include/Snake/SnakeGO.h /home/tom/snake/include/Pos.h \
  /home/tom/snake/include/Snake/TailRemover.h \
  /home/tom/snake/include/Snake/HeadUpdater.h \
+ /home/tom/snake/include/Snake/IDirectionManager.h \
  /home/tom/snake/include/Snake/SnakeDrawer.h \
+ /home/tom/snake/include/Snake/SnakeGO.h \
  /home/tom/snake/include/Apple/AppleCreator.h \
  /home/tom/snake/include/INotifyable.h \
- /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
  /home/tom/snake/include/Apple/AppleGO.h \
+ /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
  /home/tom/snake/include/IDrawer.h \
  /home/tom/snake/include/Apple/ISnakeDetector.h \
- /home/tom/snake/include/Apple/IMover.h \
- /home/tom/snake/include/Snake/TailRemover.h
+ /home/tom/snake/include/Apple/IMover.h

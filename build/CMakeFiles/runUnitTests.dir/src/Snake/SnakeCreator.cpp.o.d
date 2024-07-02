@@ -1,6 +1,7 @@
-CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: \
- /home/tom/snake/src/Apple/AppleCreator.cpp /usr/include/stdc-predef.h \
- /home/tom/snake/include/Apple/AppleCreator.h /usr/include/SDL2/SDL.h \
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.o: \
+ /home/tom/snake/src/Snake/SnakeCreator.cpp /usr/include/stdc-predef.h \
+ /home/tom/snake/include/Snake/SnakeCreator.h \
+ /home/tom/snake/include/Snake/SnakeGO.h /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h \
  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
@@ -198,7 +199,7 @@ CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h /home/tom/snake/include/INotifyable.h \
+ /usr/include/SDL2/SDL_misc.h /home/tom/snake/include/Pos.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
@@ -231,36 +232,20 @@ CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: \
  /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/tom/snake/include/Apple/AppleGO.h \
- /home/tom/snake/include/PositionManager.h /home/tom/snake/include/Pos.h \
- /home/tom/snake/include/IDrawer.h \
- /home/tom/snake/include/Apple/ISnakeDetector.h \
- /home/tom/snake/include/Apple/IMover.h /home/tom/snake/include/Pos.h \
- /home/tom/snake/include/Apple/Rander.h /usr/include/c++/13/random \
- /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
- /usr/include/c++/13/bits/char_traits.h \
- /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
- /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/cctype /usr/include/c++/13/bits/ostream_insert.h \
- /usr/include/c++/13/bits/cxxabi_forced.h \
- /usr/include/c++/13/bits/basic_string.h \
- /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/13/bits/charconv.h \
- /usr/include/c++/13/bits/basic_string.tcc /usr/include/c++/13/limits \
- /usr/include/c++/13/cstdint /usr/include/c++/13/bits/random.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
- /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
- /usr/include/c++/13/bits/stl_numeric.h \
- /home/tom/snake/include/Apple/SnakeDetector.h \
- /home/tom/snake/include/Apple/Mover.h \
- /home/tom/snake/include/Apple/Rander.h \
- /home/tom/snake/include/Apple/AppleDrawer.h
+ /home/tom/snake/include/AppleEatEvent.h \
+ /home/tom/snake/include/INotifyable.h /usr/include/c++/13/functional \
+ /usr/include/c++/13/tuple /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/typeinfo \
+ /home/tom/snake/include/Snake/TailRemover.h \
+ /home/tom/snake/include/Snake/HeadUpdater.h \
+ /home/tom/snake/include/Snake/IDirectionManager.h \
+ /home/tom/snake/include/Snake/SnakeDrawer.h \
+ /home/tom/snake/include/EventPoller.h \
+ /home/tom/snake/include/IKeyDownChannel.h \
+ /home/tom/snake/include/Snake/DirectionManager.h \
+ /home/tom/snake/include/IKeyDownChannel.h \
+ /home/tom/snake/include/Snake/HeadUpdater.h \
+ /home/tom/snake/include/Snake/SnakeDrawer.h \
+ /home/tom/snake/include/Snake/SnakeGO.h \
+ /home/tom/snake/include/Snake/TailRemover.h \
+ /usr/include/SDL2/SDL_render.h

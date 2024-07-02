@@ -85,21 +85,27 @@
 },
 {
   "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o -c /home/tom/snake/src/Snake/SnakeCreator.cpp",
+  "file": "/home/tom/snake/src/Snake/SnakeCreator.cpp",
+  "output": "CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o -c /home/tom/snake/src/Snake/SnakeDrawer.cpp",
   "file": "/home/tom/snake/src/Snake/SnakeDrawer.cpp",
   "output": "CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp",
-  "file": "/home/tom/snake/src/Snake/TailRemover.cpp",
-  "output": "CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o"
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o -c /home/tom/snake/src/Snake/SnakeGO.cpp",
+  "file": "/home/tom/snake/src/Snake/SnakeGO.cpp",
+  "output": "CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/SnakeMotion.cpp.o -c /home/tom/snake/src/SnakeMotion.cpp",
-  "file": "/home/tom/snake/src/SnakeMotion.cpp",
-  "output": "CMakeFiles/snake.dir/src/SnakeMotion.cpp.o"
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp",
+  "file": "/home/tom/snake/src/Snake/TailRemover.cpp",
+  "output": "CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",
@@ -259,20 +265,26 @@
 },
 {
   "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.o -c /home/tom/snake/src/Snake/SnakeCreator.cpp",
+  "file": "/home/tom/snake/src/Snake/SnakeCreator.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/Snake/SnakeCreator.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o -c /home/tom/snake/src/Snake/SnakeDrawer.cpp",
   "file": "/home/tom/snake/src/Snake/SnakeDrawer.cpp",
   "output": "CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp",
-  "file": "/home/tom/snake/src/Snake/TailRemover.cpp",
-  "output": "CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o"
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/SnakeGO.cpp.o -c /home/tom/snake/src/Snake/SnakeGO.cpp",
+  "file": "/home/tom/snake/src/Snake/SnakeGO.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/Snake/SnakeGO.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o -c /home/tom/snake/src/SnakeMotion.cpp",
-  "file": "/home/tom/snake/src/SnakeMotion.cpp",
-  "output": "CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o"
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp",
+  "file": "/home/tom/snake/src/Snake/TailRemover.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o"
 }
 ]
