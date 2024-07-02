@@ -1,11 +1,12 @@
 #ifndef EVENTPOLLER_H
 #define EVENTPOLLER_H
 
+#include "IKeyDownChannel.h"
 #include <vector>
 #include <SDL2/SDL.h>
 #include <functional>
 
-class EventPoller {
+class EventPoller : public IKeyDownChannel{
 public:
 	EventPoller();
 	int PollBufferedEvents();

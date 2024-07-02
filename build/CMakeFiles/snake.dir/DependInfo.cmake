@@ -20,6 +20,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tom/snake/src/PositionManager.cpp" "CMakeFiles/snake.dir/src/PositionManager.cpp.o" "gcc" "CMakeFiles/snake.dir/src/PositionManager.cpp.o.d"
   "/home/tom/snake/src/Quitter.cpp" "CMakeFiles/snake.dir/src/Quitter.cpp.o" "gcc" "CMakeFiles/snake.dir/src/Quitter.cpp.o.d"
   "/home/tom/snake/src/SDLInit.cpp" "CMakeFiles/snake.dir/src/SDLInit.cpp.o" "gcc" "CMakeFiles/snake.dir/src/SDLInit.cpp.o.d"
+  "/home/tom/snake/src/Snake/DirectionManager.cpp" "CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o" "gcc" "CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o.d"
+  "/home/tom/snake/src/Snake/HeadUpdater.cpp" "CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o" "gcc" "CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o.d"
+  "/home/tom/snake/src/Snake/SnakeDrawer.cpp" "CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o" "gcc" "CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o.d"
+  "/home/tom/snake/src/Snake/TailRemover.cpp" "CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o" "gcc" "CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o.d"
   "/home/tom/snake/src/SnakeMotion.cpp" "CMakeFiles/snake.dir/src/SnakeMotion.cpp.o" "gcc" "CMakeFiles/snake.dir/src/SnakeMotion.cpp.o.d"
   "/home/tom/snake/src/main.cpp" "CMakeFiles/snake.dir/src/main.cpp.o" "gcc" "CMakeFiles/snake.dir/src/main.cpp.o.d"
   )

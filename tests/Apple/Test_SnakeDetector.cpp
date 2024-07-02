@@ -3,7 +3,7 @@
 #include "SnakeDetector.h"
 
 TEST(TouchingTest, DetectsEaten) {
-	PositionManager snakePos;
+	std::vector<Pos> snakePos = {{128,128}, {128 - 16, 128}, {128 - 2*16, 128}};
 	PositionManager applePos;
 	const int squareLength = 10;
 
@@ -13,7 +13,7 @@ TEST(TouchingTest, DetectsEaten) {
 	tempPos.x = 100;
 	tempPos.y = 200;
 
-	snakePos.SetPosition(tempPos);
+	snakePos[0] = tempPos;
 	applePos.SetPosition(tempPos);
 
 	bool actual = snakeDetector.IsEaten();
@@ -22,7 +22,7 @@ TEST(TouchingTest, DetectsEaten) {
 	tempPos.x = 105;
 	tempPos.y = 200;
 
-	snakePos.SetPosition(tempPos);
+	snakePos[0] = tempPos;
 	
 	actual = snakeDetector.IsEaten();
 	EXPECT_EQ(actual, true);
@@ -30,7 +30,7 @@ TEST(TouchingTest, DetectsEaten) {
 	tempPos.x = 115;
 	tempPos.y = 200;
 
-	snakePos.SetPosition(tempPos);
+	snakePos[0] = tempPos;
 	
 	actual = snakeDetector.IsEaten();
 	EXPECT_EQ(actual, false);

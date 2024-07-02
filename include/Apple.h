@@ -1,3 +1,4 @@
+/*
 #ifndef APPLE_H
 #define APPLE_H
 
@@ -23,3 +24,4 @@ private:
 	const int squareLength;
 };
 #endif
+*/

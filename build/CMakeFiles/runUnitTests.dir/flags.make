@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tom/snake/include -I/home/tom/snake/include/Apple -isystem /usr/include/SDL2
+CXX_INCLUDES = -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2
 
 CXX_FLAGS = -std=gnu++14 -DGTEST_HAS_PTHREAD=1
 

@@ -10,6 +10,7 @@ find_package(SDL2 REQUIRED)
 #Specify the include directories for your project headers
 include_directories(${CMAKE_SOURCE_DIR}/include)
 include_directories(${CMAKE_SOURCE_DIR}/include/Apple)
+include_directories(${CMAKE_SOURCE_DIR}/include/Snake)
 
 # Add source files
 file(GLOB_RECURSE SOURCES "src/*.cpp")

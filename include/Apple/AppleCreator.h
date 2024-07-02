@@ -4,11 +4,13 @@
 #include <SDL2/SDL.h>
 #include "INotifyable.h"
 #include "PositionManager.h"
+#include <vector>
 #include "AppleGO.h"
+#include "Pos.h"
 
 class AppleCreator {
 	public:
-		AppleCreator(const int winWidth, const int winHeight, const int squareLength, INotifyable* const appleEatChannel, SDL_Renderer* ren, PositionManager* const snakePos);
+		AppleCreator(const int winWidth, const int winHeight, const int squareLength, INotifyable* const appleEatChannel, SDL_Renderer* ren, const std::vector<Pos>* const snakePos);
 		AppleGO* CreateApple();
 
 	private:
@@ -17,6 +19,6 @@ class AppleCreator {
 		const int squareLength;
 		const INotifyable* appleEatChannel;
 		SDL_Renderer* ren;
-		PositionManager* const snakePos;
+		const std::vector<Pos>* const snakePos;
 };
 #endif

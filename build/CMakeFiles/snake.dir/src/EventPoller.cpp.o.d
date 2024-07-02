@@ -210,8 +210,9 @@ CMakeFiles/snake.dir/src/EventPoller.cpp.o: \
  /usr/include/c++/13/bits/exception.h /usr/include/c++/13/typeinfo \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
- /home/tom/snake/src/../include/EventPoller.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_algobase.h \
+ /home/tom/snake/src/../include/EventPoller.h \
+ /home/tom/snake/src/../include/IKeyDownChannel.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/ext/numeric_traits.h \
  /usr/include/c++/13/bits/stl_iterator_base_types.h \
  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \

@@ -1,6 +1,5 @@
 #include "AppleCreator.h"
 #include "MockNotifyable.h"
-#include "PositionManager.h"
 #include <gtest/gtest.h>
 #include <SDL2/SDL.h>
 
@@ -25,10 +24,9 @@ TEST(TestAppleCreator, RunsUpdateNoCrash) {
     }
 	
 	MockNotifyable mockChannel;
-	PositionManager posMan;
+	std::vector<Pos> snakePos = {{128,128}, {128 - 16, 128}, {128 - 2*16, 128}};
 
-
-	AppleCreator appleCreator = AppleCreator(800, 600, 10, &mockChannel, ren, &posMan);
+	AppleCreator appleCreator = AppleCreator(800, 600, 10, &mockChannel, ren, &snakePos);
 	bool madeAppleCreatorNoCrash = true;
 	EXPECT_TRUE(madeAppleCreatorNoCrash);
 	AppleGO* apple = appleCreator.CreateApple();

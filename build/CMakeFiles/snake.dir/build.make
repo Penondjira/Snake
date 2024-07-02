@@ -237,10 +237,66 @@ CMakeFiles/snake.dir/src/SDLInit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/SDLInit.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/SDLInit.cpp -o CMakeFiles/snake.dir/src/SDLInit.cpp.s
 
+CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: /home/tom/snake/src/Snake/DirectionManager.cpp
+CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o -MF CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o -c /home/tom/snake/src/Snake/DirectionManager.cpp
+
+CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/DirectionManager.cpp > CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.i
+
+CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/DirectionManager.cpp -o CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.s
+
+CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: /home/tom/snake/src/Snake/HeadUpdater.cpp
+CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o -MF CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o -c /home/tom/snake/src/Snake/HeadUpdater.cpp
+
+CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/HeadUpdater.cpp > CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.i
+
+CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/HeadUpdater.cpp -o CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.s
+
+CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: /home/tom/snake/src/Snake/SnakeDrawer.cpp
+CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o -MF CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o -c /home/tom/snake/src/Snake/SnakeDrawer.cpp
+
+CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/SnakeDrawer.cpp > CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.i
+
+CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/SnakeDrawer.cpp -o CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.s
+
+CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: /home/tom/snake/src/Snake/TailRemover.cpp
+CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -MF CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp
+
+CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/TailRemover.cpp > CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.i
+
+CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/TailRemover.cpp -o CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s
+
 CMakeFiles/snake.dir/src/SnakeMotion.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/SnakeMotion.cpp.o: /home/tom/snake/src/SnakeMotion.cpp
 CMakeFiles/snake.dir/src/SnakeMotion.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/snake.dir/src/SnakeMotion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/snake.dir/src/SnakeMotion.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/SnakeMotion.cpp.o -MF CMakeFiles/snake.dir/src/SnakeMotion.cpp.o.d -o CMakeFiles/snake.dir/src/SnakeMotion.cpp.o -c /home/tom/snake/src/SnakeMotion.cpp
 
 CMakeFiles/snake.dir/src/SnakeMotion.cpp.i: cmake_force
@@ -254,7 +310,7 @@ CMakeFiles/snake.dir/src/SnakeMotion.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/main.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp
 CMakeFiles/snake.dir/src/main.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/snake.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/snake.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/main.cpp.o -MF CMakeFiles/snake.dir/src/main.cpp.o.d -o CMakeFiles/snake.dir/src/main.cpp.o -c /home/tom/snake/src/main.cpp
 
 CMakeFiles/snake.dir/src/main.cpp.i: cmake_force
@@ -279,6 +335,10 @@ snake_OBJECTS = \
 "CMakeFiles/snake.dir/src/PositionManager.cpp.o" \
 "CMakeFiles/snake.dir/src/Quitter.cpp.o" \
 "CMakeFiles/snake.dir/src/SDLInit.cpp.o" \
+"CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o" \
+"CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o" \
+"CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o" \
+"CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o" \
 "CMakeFiles/snake.dir/src/SnakeMotion.cpp.o" \
 "CMakeFiles/snake.dir/src/main.cpp.o"
 
@@ -297,12 +357,16 @@ snake: CMakeFiles/snake.dir/src/EventPoller.cpp.o
 snake: CMakeFiles/snake.dir/src/PositionManager.cpp.o
 snake: CMakeFiles/snake.dir/src/Quitter.cpp.o
 snake: CMakeFiles/snake.dir/src/SDLInit.cpp.o
+snake: CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o
+snake: CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o
+snake: CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o
+snake: CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o
 snake: CMakeFiles/snake.dir/src/SnakeMotion.cpp.o
 snake: CMakeFiles/snake.dir/src/main.cpp.o
 snake: CMakeFiles/snake.dir/build.make
 snake: /usr/lib/x86_64-linux-gnu/libSDL2.so
 snake: CMakeFiles/snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

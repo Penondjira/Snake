@@ -476,6 +476,114 @@ src/SDLInit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.s
 .PHONY : src/SDLInit.cpp.s
 
+src/Snake/DirectionManager.o: src/Snake/DirectionManager.cpp.o
+.PHONY : src/Snake/DirectionManager.o
+
+# target to build an object file
+src/Snake/DirectionManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o
+.PHONY : src/Snake/DirectionManager.cpp.o
+
+src/Snake/DirectionManager.i: src/Snake/DirectionManager.cpp.i
+.PHONY : src/Snake/DirectionManager.i
+
+# target to preprocess a source file
+src/Snake/DirectionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.i
+.PHONY : src/Snake/DirectionManager.cpp.i
+
+src/Snake/DirectionManager.s: src/Snake/DirectionManager.cpp.s
+.PHONY : src/Snake/DirectionManager.s
+
+# target to generate assembly for a file
+src/Snake/DirectionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.s
+.PHONY : src/Snake/DirectionManager.cpp.s
+
+src/Snake/HeadUpdater.o: src/Snake/HeadUpdater.cpp.o
+.PHONY : src/Snake/HeadUpdater.o
+
+# target to build an object file
+src/Snake/HeadUpdater.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o
+.PHONY : src/Snake/HeadUpdater.cpp.o
+
+src/Snake/HeadUpdater.i: src/Snake/HeadUpdater.cpp.i
+.PHONY : src/Snake/HeadUpdater.i
+
+# target to preprocess a source file
+src/Snake/HeadUpdater.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.i
+.PHONY : src/Snake/HeadUpdater.cpp.i
+
+src/Snake/HeadUpdater.s: src/Snake/HeadUpdater.cpp.s
+.PHONY : src/Snake/HeadUpdater.s
+
+# target to generate assembly for a file
+src/Snake/HeadUpdater.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.s
+.PHONY : src/Snake/HeadUpdater.cpp.s
+
+src/Snake/SnakeDrawer.o: src/Snake/SnakeDrawer.cpp.o
+.PHONY : src/Snake/SnakeDrawer.o
+
+# target to build an object file
+src/Snake/SnakeDrawer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o
+.PHONY : src/Snake/SnakeDrawer.cpp.o
+
+src/Snake/SnakeDrawer.i: src/Snake/SnakeDrawer.cpp.i
+.PHONY : src/Snake/SnakeDrawer.i
+
+# target to preprocess a source file
+src/Snake/SnakeDrawer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.i
+.PHONY : src/Snake/SnakeDrawer.cpp.i
+
+src/Snake/SnakeDrawer.s: src/Snake/SnakeDrawer.cpp.s
+.PHONY : src/Snake/SnakeDrawer.s
+
+# target to generate assembly for a file
+src/Snake/SnakeDrawer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.s
+.PHONY : src/Snake/SnakeDrawer.cpp.s
+
+src/Snake/TailRemover.o: src/Snake/TailRemover.cpp.o
+.PHONY : src/Snake/TailRemover.o
+
+# target to build an object file
+src/Snake/TailRemover.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o
+.PHONY : src/Snake/TailRemover.cpp.o
+
+src/Snake/TailRemover.i: src/Snake/TailRemover.cpp.i
+.PHONY : src/Snake/TailRemover.i
+
+# target to preprocess a source file
+src/Snake/TailRemover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.i
+.PHONY : src/Snake/TailRemover.cpp.i
+
+src/Snake/TailRemover.s: src/Snake/TailRemover.cpp.s
+.PHONY : src/Snake/TailRemover.s
+
+# target to generate assembly for a file
+src/Snake/TailRemover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.s
+.PHONY : src/Snake/TailRemover.cpp.s
+
 src/SnakeMotion.o: src/SnakeMotion.cpp.o
 .PHONY : src/SnakeMotion.o
 
@@ -671,6 +779,78 @@ tests/MockNotifyable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.s
 .PHONY : tests/MockNotifyable.cpp.s
 
+tests/Snake/Test_DirectionManager.o: tests/Snake/Test_DirectionManager.cpp.o
+.PHONY : tests/Snake/Test_DirectionManager.o
+
+# target to build an object file
+tests/Snake/Test_DirectionManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o
+.PHONY : tests/Snake/Test_DirectionManager.cpp.o
+
+tests/Snake/Test_DirectionManager.i: tests/Snake/Test_DirectionManager.cpp.i
+.PHONY : tests/Snake/Test_DirectionManager.i
+
+# target to preprocess a source file
+tests/Snake/Test_DirectionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.i
+.PHONY : tests/Snake/Test_DirectionManager.cpp.i
+
+tests/Snake/Test_DirectionManager.s: tests/Snake/Test_DirectionManager.cpp.s
+.PHONY : tests/Snake/Test_DirectionManager.s
+
+# target to generate assembly for a file
+tests/Snake/Test_DirectionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.s
+.PHONY : tests/Snake/Test_DirectionManager.cpp.s
+
+tests/Snake/Test_HeadUpdater.o: tests/Snake/Test_HeadUpdater.cpp.o
+.PHONY : tests/Snake/Test_HeadUpdater.o
+
+# target to build an object file
+tests/Snake/Test_HeadUpdater.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o
+.PHONY : tests/Snake/Test_HeadUpdater.cpp.o
+
+tests/Snake/Test_HeadUpdater.i: tests/Snake/Test_HeadUpdater.cpp.i
+.PHONY : tests/Snake/Test_HeadUpdater.i
+
+# target to preprocess a source file
+tests/Snake/Test_HeadUpdater.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.i
+.PHONY : tests/Snake/Test_HeadUpdater.cpp.i
+
+tests/Snake/Test_HeadUpdater.s: tests/Snake/Test_HeadUpdater.cpp.s
+.PHONY : tests/Snake/Test_HeadUpdater.s
+
+# target to generate assembly for a file
+tests/Snake/Test_HeadUpdater.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.s
+.PHONY : tests/Snake/Test_HeadUpdater.cpp.s
+
+tests/Snake/Test_TailRemover.o: tests/Snake/Test_TailRemover.cpp.o
+.PHONY : tests/Snake/Test_TailRemover.o
+
+# target to build an object file
+tests/Snake/Test_TailRemover.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o
+.PHONY : tests/Snake/Test_TailRemover.cpp.o
+
+tests/Snake/Test_TailRemover.i: tests/Snake/Test_TailRemover.cpp.i
+.PHONY : tests/Snake/Test_TailRemover.i
+
+# target to preprocess a source file
+tests/Snake/Test_TailRemover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.i
+.PHONY : tests/Snake/Test_TailRemover.cpp.i
+
+tests/Snake/Test_TailRemover.s: tests/Snake/Test_TailRemover.cpp.s
+.PHONY : tests/Snake/Test_TailRemover.s
+
+# target to generate assembly for a file
+tests/Snake/Test_TailRemover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.s
+.PHONY : tests/Snake/Test_TailRemover.cpp.s
+
 tests/Test_PositionManager.o: tests/Test_PositionManager.cpp.o
 .PHONY : tests/Test_PositionManager.o
 
@@ -766,6 +946,18 @@ help:
 	@echo "... src/SDLInit.o"
 	@echo "... src/SDLInit.i"
 	@echo "... src/SDLInit.s"
+	@echo "... src/Snake/DirectionManager.o"
+	@echo "... src/Snake/DirectionManager.i"
+	@echo "... src/Snake/DirectionManager.s"
+	@echo "... src/Snake/HeadUpdater.o"
+	@echo "... src/Snake/HeadUpdater.i"
+	@echo "... src/Snake/HeadUpdater.s"
+	@echo "... src/Snake/SnakeDrawer.o"
+	@echo "... src/Snake/SnakeDrawer.i"
+	@echo "... src/Snake/SnakeDrawer.s"
+	@echo "... src/Snake/TailRemover.o"
+	@echo "... src/Snake/TailRemover.i"
+	@echo "... src/Snake/TailRemover.s"
 	@echo "... src/SnakeMotion.o"
 	@echo "... src/SnakeMotion.i"
 	@echo "... src/SnakeMotion.s"
@@ -790,6 +982,15 @@ help:
 	@echo "... tests/MockNotifyable.o"
 	@echo "... tests/MockNotifyable.i"
 	@echo "... tests/MockNotifyable.s"
+	@echo "... tests/Snake/Test_DirectionManager.o"
+	@echo "... tests/Snake/Test_DirectionManager.i"
+	@echo "... tests/Snake/Test_DirectionManager.s"
+	@echo "... tests/Snake/Test_HeadUpdater.o"
+	@echo "... tests/Snake/Test_HeadUpdater.i"
+	@echo "... tests/Snake/Test_HeadUpdater.s"
+	@echo "... tests/Snake/Test_TailRemover.o"
+	@echo "... tests/Snake/Test_TailRemover.i"
+	@echo "... tests/Snake/Test_TailRemover.s"
 	@echo "... tests/Test_PositionManager.o"
 	@echo "... tests/Test_PositionManager.i"
 	@echo "... tests/Test_PositionManager.s"

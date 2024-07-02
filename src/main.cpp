@@ -6,9 +6,12 @@
 #include <tuple>
 #include "../include/EventPoller.h"
 #include "../include/Quitter.h"
-#include "../include/SnakeMotion.h"
+#include "DirectionManager.h"
+#include "HeadUpdater.h"
+#include "SnakeDrawer.h"
+#include "SnakeMotion.h"
 #include "AppleCreator.h"
-#include "PositionManager.h"
+#include "TailRemover.h"
 #include <vector>
 
 int main(int argc, char* argv[]) {
@@ -20,19 +23,24 @@ int main(int argc, char* argv[]) {
     const int squareLength = 16;
 
     EventPoller eventPoller;
-    EventPoller* eventPollerPtr = &eventPoller;
-    Quitter quitter = Quitter(eventPollerPtr, win, ren);
+    Quitter quitter = Quitter(&eventPoller, win, ren);
     AppleEatChannel appleEatChannel = AppleEatChannel();
     AppleEatChannel* const appleEatEventPtr = &appleEatChannel;
-    SnakeMotion snake = SnakeMotion(eventPollerPtr, win, ren, squareLength, appleEatEventPtr);
+    DirectionManager directionManager = DirectionManager(&eventPoller);
+
+	std::vector<Pos> snakePos(3);
+	snakePos[0].x = 128;
+	snakePos[0].y = 128;
+	snakePos[1].x = 128 - squareLength;
+	snakePos[1].y = 128;
+	snakePos[2].x = 128 - squareLength - squareLength;
+	snakePos[2].y = 128;
+
+    TailRemover tailRemover = TailRemover(&snakePos);
+    HeadUpdater headUpdater = HeadUpdater(&snakePos, &directionManager, squareLength);
+    SnakeDrawer snakeDrawer = SnakeDrawer(&snakePos, squareLength, ren);
+    SnakeMotion snake = SnakeMotion(&headUpdater, &snakeDrawer, appleEatEventPtr, &snakePos, &tailRemover);
     const SnakeMotion* snakePtr = &snake;
-    //FIXME: have get position manager function in snake
-    std::vector<int> tempSnakePos = snake.GetPosition();
-    Pos snakePosStruct;
-    snakePosStruct.x = tempSnakePos[0];
-    snakePosStruct.y = tempSnakePos[1];
-    PositionManager snakePos; 
-    snakePos.SetPosition(snakePosStruct);
     int winWidth, winHeight;
     SDL_GetWindowSize(win, &winWidth, &winHeight);
     const int minWidth = squareLength;

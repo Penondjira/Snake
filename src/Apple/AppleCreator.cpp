@@ -5,7 +5,7 @@
 #include "Mover.h"
 #include "AppleDrawer.h"
 
-AppleCreator::AppleCreator(const int winWidth, const int winHeight, const int squareLength, INotifyable* const appleEatChannel, SDL_Renderer* ren, PositionManager* const snakePos)
+AppleCreator::AppleCreator(const int winWidth, const int winHeight, const int squareLength, INotifyable* const appleEatChannel, SDL_Renderer* ren, const std::vector<Pos>* const snakePos)
 	: winWidth(winWidth), winHeight(winHeight), squareLength(squareLength), appleEatChannel(appleEatChannel), ren(ren), snakePos(snakePos) {
 
 }	

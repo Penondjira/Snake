@@ -1,12 +1,13 @@
 #include "ISnakeDetector.h"
 #include <PositionManager.h>
+#include <vector>
 
 class SnakeDetector : public ISnakeDetector{
 	public:
-		SnakeDetector(const PositionManager* snakePos, const PositionManager* applePos, const int &squareLength);
+		SnakeDetector(const std::vector<Pos>* const snakePos, const PositionManager* applePos, const int &squareLength);
 		bool IsEaten() const;
 	private:
-		const PositionManager* snakePos;
+		const std::vector<Pos>* const snakePos;
 		const PositionManager* applePos;
 		int squareLength;
 };

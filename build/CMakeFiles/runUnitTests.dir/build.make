@@ -153,10 +153,52 @@ CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/tests/MockNotifyable.cpp -o CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.s
 
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o: /home/tom/snake/tests/Snake/Test_DirectionManager.cpp
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o -c /home/tom/snake/tests/Snake/Test_DirectionManager.cpp
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/tests/Snake/Test_DirectionManager.cpp > CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.i
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/tests/Snake/Test_DirectionManager.cpp -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.s
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o: /home/tom/snake/tests/Snake/Test_HeadUpdater.cpp
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o -c /home/tom/snake/tests/Snake/Test_HeadUpdater.cpp
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/tests/Snake/Test_HeadUpdater.cpp > CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.i
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/tests/Snake/Test_HeadUpdater.cpp -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.s
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o: /home/tom/snake/tests/Snake/Test_TailRemover.cpp
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o -c /home/tom/snake/tests/Snake/Test_TailRemover.cpp
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/tests/Snake/Test_TailRemover.cpp > CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.i
+
+CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/tests/Snake/Test_TailRemover.cpp -o CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.s
+
 CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o: /home/tom/snake/tests/Test_PositionManager.cpp
 CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o -c /home/tom/snake/tests/Test_PositionManager.cpp
 
 CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o: /home/tom/snake/tests/mainTest.cpp
 CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o -MF CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o.d -o CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o -c /home/tom/snake/tests/mainTest.cpp
 
 CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple.cpp.o: /home/tom/snake/src/Apple.cpp
 CMakeFiles/runUnitTests.dir/src/Apple.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple.cpp.o -c /home/tom/snake/src/Apple.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple.cpp.i: cmake_force
@@ -198,7 +240,7 @@ CMakeFiles/runUnitTests.dir/src/Apple.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o: /home/tom/snake/src/Apple/AppleCreator.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o -c /home/tom/snake/src/Apple/AppleCreator.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.i: cmake_force
@@ -212,7 +254,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o: /home/tom/snake/src/Apple/AppleDrawer.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o -c /home/tom/snake/src/Apple/AppleDrawer.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.i: cmake_force
@@ -226,7 +268,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o: /home/tom/snake/src/Apple/AppleGO.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o -c /home/tom/snake/src/Apple/AppleGO.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.i: cmake_force
@@ -240,7 +282,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o: /home/tom/snake/src/Apple/Mover.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.o -c /home/tom/snake/src/Apple/Mover.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.i: cmake_force
@@ -254,7 +296,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/Mover.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o: /home/tom/snake/src/Apple/Rander.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.o -c /home/tom/snake/src/Apple/Rander.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.i: cmake_force
@@ -268,7 +310,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/Rander.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o: /home/tom/snake/src/Apple/SnakeDetector.cpp
 CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.o -c /home/tom/snake/src/Apple/SnakeDetector.cpp
 
 CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.i: cmake_force
@@ -282,7 +324,7 @@ CMakeFiles/runUnitTests.dir/src/Apple/SnakeDetector.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o: /home/tom/snake/src/AppleEatEvent.cpp
 CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o -MF CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.o -c /home/tom/snake/src/AppleEatEvent.cpp
 
 CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.i: cmake_force
@@ -296,7 +338,7 @@ CMakeFiles/runUnitTests.dir/src/AppleEatEvent.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o: /home/tom/snake/src/EventPoller.cpp
 CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o -MF CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o -c /home/tom/snake/src/EventPoller.cpp
 
 CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o: /home/tom/snake/src/PositionManager.cpp
 CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o -MF CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o -c /home/tom/snake/src/PositionManager.cpp
 
 CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.i: cmake_force
@@ -324,7 +366,7 @@ CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o: /home/tom/snake/src/Quitter.cpp
 CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o -c /home/tom/snake/src/Quitter.cpp
 
 CMakeFiles/runUnitTests.dir/src/Quitter.cpp.i: cmake_force
@@ -338,7 +380,7 @@ CMakeFiles/runUnitTests.dir/src/Quitter.cpp.s: cmake_force
 CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o: /home/tom/snake/src/SDLInit.cpp
 CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o -MF CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o -c /home/tom/snake/src/SDLInit.cpp
 
 CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.i: cmake_force
@@ -349,10 +391,66 @@ CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/SDLInit.cpp -o CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.s
 
+CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o: /home/tom/snake/src/Snake/DirectionManager.cpp
+CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o -c /home/tom/snake/src/Snake/DirectionManager.cpp
+
+CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/DirectionManager.cpp > CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/DirectionManager.cpp -o CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.s
+
+CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o: /home/tom/snake/src/Snake/HeadUpdater.cpp
+CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o -c /home/tom/snake/src/Snake/HeadUpdater.cpp
+
+CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/HeadUpdater.cpp > CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/HeadUpdater.cpp -o CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.s
+
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o: /home/tom/snake/src/Snake/SnakeDrawer.cpp
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o -c /home/tom/snake/src/Snake/SnakeDrawer.cpp
+
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/SnakeDrawer.cpp > CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/SnakeDrawer.cpp -o CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.s
+
+CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o: /home/tom/snake/src/Snake/TailRemover.cpp
+CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o -MF CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp
+
+CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Snake/TailRemover.cpp > CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Snake/TailRemover.cpp -o CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.s
+
 CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
 CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o: /home/tom/snake/src/SnakeMotion.cpp
 CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o -MF CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o -c /home/tom/snake/src/SnakeMotion.cpp
 
 CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.i: cmake_force
@@ -371,6 +469,9 @@ runUnitTests_OBJECTS = \
 "CMakeFiles/runUnitTests.dir/tests/Apple/Test_Rander.cpp.o" \
 "CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.o" \
 "CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.o" \
+"CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o" \
+"CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o" \
+"CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o" \
 "CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o" \
 "CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o" \
 "CMakeFiles/runUnitTests.dir/src/Apple.cpp.o" \
@@ -385,6 +486,10 @@ runUnitTests_OBJECTS = \
 "CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o" \
 "CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o" \
 "CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o" \
 "CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o"
 
 # External object files for target runUnitTests
@@ -396,6 +501,9 @@ runUnitTests: CMakeFiles/runUnitTests.dir/tests/Apple/Test_Mover.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/Apple/Test_Rander.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/Apple/Test_SnakeDetector.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/MockNotifyable.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/tests/Snake/Test_DirectionManager.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/tests/Snake/Test_HeadUpdater.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/tests/Snake/Test_TailRemover.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/Test_PositionManager.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/src/Apple.cpp.o
@@ -410,6 +518,10 @@ runUnitTests: CMakeFiles/runUnitTests.dir/src/EventPoller.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/src/PositionManager.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/src/Quitter.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/src/SDLInit.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/Snake/DirectionManager.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/Snake/HeadUpdater.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/Snake/SnakeDrawer.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/src/SnakeMotion.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/build.make
 runUnitTests: /usr/lib/x86_64-linux-gnu/libgtest.a
@@ -417,7 +529,7 @@ runUnitTests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 runUnitTests: /usr/lib/x86_64-linux-gnu/libSDL2.so
 runUnitTests: /usr/lib/x86_64-linux-gnu/libgtest.a
 runUnitTests: CMakeFiles/runUnitTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable runUnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable runUnitTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

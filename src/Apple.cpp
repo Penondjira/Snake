@@ -1,3 +1,4 @@
+/*
 #include <SDL2/SDL.h>
 #include "../include/Apple.h"
 #include "AppleEatEvent.h"
@@ -47,3 +48,4 @@ void Apple::Update(){
 		SpawnApple();
 	}
 }
+*/
