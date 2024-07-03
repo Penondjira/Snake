@@ -69,24 +69,10 @@ include CMakeFiles/snake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/snake.dir/flags.make
 
-CMakeFiles/snake.dir/src/Apple.cpp.o: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/Apple.cpp.o: /home/tom/snake/src/Apple.cpp
-CMakeFiles/snake.dir/src/Apple.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake.dir/src/Apple.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple.cpp.o -MF CMakeFiles/snake.dir/src/Apple.cpp.o.d -o CMakeFiles/snake.dir/src/Apple.cpp.o -c /home/tom/snake/src/Apple.cpp
-
-CMakeFiles/snake.dir/src/Apple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/Apple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tom/snake/src/Apple.cpp > CMakeFiles/snake.dir/src/Apple.cpp.i
-
-CMakeFiles/snake.dir/src/Apple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/Apple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tom/snake/src/Apple.cpp -o CMakeFiles/snake.dir/src/Apple.cpp.s
-
 CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: /home/tom/snake/src/Apple/AppleCreator.cpp
 CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o -MF CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o -c /home/tom/snake/src/Apple/AppleCreator.cpp
 
 CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o: /home/tom/snake/src/Apple/AppleDrawer.cpp
 CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o -MF CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o -c /home/tom/snake/src/Apple/AppleDrawer.cpp
 
 CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o: /home/tom/snake/src/Apple/AppleGO.cpp
 CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o -MF CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o -c /home/tom/snake/src/Apple/AppleGO.cpp
 
 CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Apple/Mover.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/Mover.cpp.o: /home/tom/snake/src/Apple/Mover.cpp
 CMakeFiles/snake.dir/src/Apple/Mover.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/src/Apple/Mover.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake.dir/src/Apple/Mover.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/Mover.cpp.o -MF CMakeFiles/snake.dir/src/Apple/Mover.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/Mover.cpp.o -c /home/tom/snake/src/Apple/Mover.cpp
 
 CMakeFiles/snake.dir/src/Apple/Mover.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/snake.dir/src/Apple/Mover.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Apple/Rander.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/Rander.cpp.o: /home/tom/snake/src/Apple/Rander.cpp
 CMakeFiles/snake.dir/src/Apple/Rander.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/src/Apple/Rander.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/src/Apple/Rander.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/Rander.cpp.o -MF CMakeFiles/snake.dir/src/Apple/Rander.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/Rander.cpp.o -c /home/tom/snake/src/Apple/Rander.cpp
 
 CMakeFiles/snake.dir/src/Apple/Rander.cpp.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/snake.dir/src/Apple/Rander.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o: /home/tom/snake/src/Apple/SnakeDetector.cpp
 CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o -MF CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o.d -o CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.o -c /home/tom/snake/src/Apple/SnakeDetector.cpp
 
 CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/snake.dir/src/Apple/SnakeDetector.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o: /home/tom/snake/src/AppleEatEvent.cpp
 CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o -MF CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o.d -o CMakeFiles/snake.dir/src/AppleEatEvent.cpp.o -c /home/tom/snake/src/AppleEatEvent.cpp
 
 CMakeFiles/snake.dir/src/AppleEatEvent.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/snake.dir/src/AppleEatEvent.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/EventPoller.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/EventPoller.cpp.o: /home/tom/snake/src/EventPoller.cpp
 CMakeFiles/snake.dir/src/EventPoller.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/snake.dir/src/EventPoller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/snake.dir/src/EventPoller.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/EventPoller.cpp.o -MF CMakeFiles/snake.dir/src/EventPoller.cpp.o.d -o CMakeFiles/snake.dir/src/EventPoller.cpp.o -c /home/tom/snake/src/EventPoller.cpp
 
 CMakeFiles/snake.dir/src/EventPoller.cpp.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/snake.dir/src/EventPoller.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/PositionManager.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/PositionManager.cpp.o: /home/tom/snake/src/PositionManager.cpp
 CMakeFiles/snake.dir/src/PositionManager.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/snake.dir/src/PositionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/snake.dir/src/PositionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/PositionManager.cpp.o -MF CMakeFiles/snake.dir/src/PositionManager.cpp.o.d -o CMakeFiles/snake.dir/src/PositionManager.cpp.o -c /home/tom/snake/src/PositionManager.cpp
 
 CMakeFiles/snake.dir/src/PositionManager.cpp.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/snake.dir/src/PositionManager.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Quitter.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Quitter.cpp.o: /home/tom/snake/src/Quitter.cpp
 CMakeFiles/snake.dir/src/Quitter.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/snake.dir/src/Quitter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/snake.dir/src/Quitter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Quitter.cpp.o -MF CMakeFiles/snake.dir/src/Quitter.cpp.o.d -o CMakeFiles/snake.dir/src/Quitter.cpp.o -c /home/tom/snake/src/Quitter.cpp
 
 CMakeFiles/snake.dir/src/Quitter.cpp.i: cmake_force
@@ -226,7 +212,7 @@ CMakeFiles/snake.dir/src/Quitter.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/SDLInit.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/SDLInit.cpp.o: /home/tom/snake/src/SDLInit.cpp
 CMakeFiles/snake.dir/src/SDLInit.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/snake.dir/src/SDLInit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/snake.dir/src/SDLInit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/SDLInit.cpp.o -MF CMakeFiles/snake.dir/src/SDLInit.cpp.o.d -o CMakeFiles/snake.dir/src/SDLInit.cpp.o -c /home/tom/snake/src/SDLInit.cpp
 
 CMakeFiles/snake.dir/src/SDLInit.cpp.i: cmake_force
@@ -240,7 +226,7 @@ CMakeFiles/snake.dir/src/SDLInit.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: /home/tom/snake/src/Snake/DirectionManager.cpp
 CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o -MF CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.o -c /home/tom/snake/src/Snake/DirectionManager.cpp
 
 CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.i: cmake_force
@@ -254,7 +240,7 @@ CMakeFiles/snake.dir/src/Snake/DirectionManager.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: /home/tom/snake/src/Snake/HeadUpdater.cpp
 CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o -MF CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.o -c /home/tom/snake/src/Snake/HeadUpdater.cpp
 
 CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.i: cmake_force
@@ -268,7 +254,7 @@ CMakeFiles/snake.dir/src/Snake/HeadUpdater.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o: /home/tom/snake/src/Snake/SnakeCreator.cpp
 CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o -MF CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.o -c /home/tom/snake/src/Snake/SnakeCreator.cpp
 
 CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.i: cmake_force
@@ -282,7 +268,7 @@ CMakeFiles/snake.dir/src/Snake/SnakeCreator.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: /home/tom/snake/src/Snake/SnakeDrawer.cpp
 CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o -MF CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.o -c /home/tom/snake/src/Snake/SnakeDrawer.cpp
 
 CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.i: cmake_force
@@ -296,7 +282,7 @@ CMakeFiles/snake.dir/src/Snake/SnakeDrawer.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o: /home/tom/snake/src/Snake/SnakeGO.cpp
 CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o -MF CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.o -c /home/tom/snake/src/Snake/SnakeGO.cpp
 
 CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.i: cmake_force
@@ -310,7 +296,7 @@ CMakeFiles/snake.dir/src/Snake/SnakeGO.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: /home/tom/snake/src/Snake/TailRemover.cpp
 CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -MF CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o.d -o CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp
 
 CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/snake.dir/src/Snake/TailRemover.cpp.s: cmake_force
 CMakeFiles/snake.dir/src/main.cpp.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/main.cpp.o: /home/tom/snake/src/main.cpp
 CMakeFiles/snake.dir/src/main.cpp.o: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/snake.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/snake.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/main.cpp.o -MF CMakeFiles/snake.dir/src/main.cpp.o.d -o CMakeFiles/snake.dir/src/main.cpp.o -c /home/tom/snake/src/main.cpp
 
 CMakeFiles/snake.dir/src/main.cpp.i: cmake_force
@@ -337,7 +323,6 @@ CMakeFiles/snake.dir/src/main.cpp.s: cmake_force
 
 # Object files for target snake
 snake_OBJECTS = \
-"CMakeFiles/snake.dir/src/Apple.cpp.o" \
 "CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o" \
 "CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o" \
 "CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o" \
@@ -360,7 +345,6 @@ snake_OBJECTS = \
 # External object files for target snake
 snake_EXTERNAL_OBJECTS =
 
-snake: CMakeFiles/snake.dir/src/Apple.cpp.o
 snake: CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o
 snake: CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o
 snake: CMakeFiles/snake.dir/src/Apple/AppleGO.cpp.o
@@ -382,7 +366,7 @@ snake: CMakeFiles/snake.dir/src/main.cpp.o
 snake: CMakeFiles/snake.dir/build.make
 snake: /usr/lib/x86_64-linux-gnu/libSDL2.so
 snake: CMakeFiles/snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tom/snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

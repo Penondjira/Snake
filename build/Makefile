@@ -152,33 +152,6 @@ runUnitTests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
 .PHONY : runUnitTests/fast
 
-src/Apple.o: src/Apple.cpp.o
-.PHONY : src/Apple.o
-
-# target to build an object file
-src/Apple.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.o
-.PHONY : src/Apple.cpp.o
-
-src/Apple.i: src/Apple.cpp.i
-.PHONY : src/Apple.i
-
-# target to preprocess a source file
-src/Apple.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.i
-.PHONY : src/Apple.cpp.i
-
-src/Apple.s: src/Apple.cpp.s
-.PHONY : src/Apple.s
-
-# target to generate assembly for a file
-src/Apple.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/Apple.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/Apple.cpp.s
-.PHONY : src/Apple.cpp.s
-
 src/Apple/AppleCreator.o: src/Apple/AppleCreator.cpp.o
 .PHONY : src/Apple/AppleCreator.o
 
@@ -937,9 +910,6 @@ help:
 	@echo "... test"
 	@echo "... runUnitTests"
 	@echo "... snake"
-	@echo "... src/Apple.o"
-	@echo "... src/Apple.i"
-	@echo "... src/Apple.s"
 	@echo "... src/Apple/AppleCreator.o"
 	@echo "... src/Apple/AppleCreator.i"
 	@echo "... src/Apple/AppleCreator.s"

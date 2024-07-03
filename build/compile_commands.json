@@ -1,12 +1,6 @@
 [
 {
   "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple.cpp.o -c /home/tom/snake/src/Apple.cpp",
-  "file": "/home/tom/snake/src/Apple.cpp",
-  "output": "CMakeFiles/snake.dir/src/Apple.cpp.o"
-},
-{
-  "directory": "/home/tom/snake/build",
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o -c /home/tom/snake/src/Apple/AppleCreator.cpp",
   "file": "/home/tom/snake/src/Apple/AppleCreator.cpp",
   "output": "CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o"
@@ -178,12 +172,6 @@
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o -c /home/tom/snake/tests/mainTest.cpp",
   "file": "/home/tom/snake/tests/mainTest.cpp",
   "output": "CMakeFiles/runUnitTests.dir/tests/mainTest.cpp.o"
-},
-{
-  "directory": "/home/tom/snake/build",
-  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Apple.cpp.o -c /home/tom/snake/src/Apple.cpp",
-  "file": "/home/tom/snake/src/Apple.cpp",
-  "output": "CMakeFiles/runUnitTests.dir/src/Apple.cpp.o"
 },
 {
   "directory": "/home/tom/snake/build",

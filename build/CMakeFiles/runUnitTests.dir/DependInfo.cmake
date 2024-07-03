@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tom/snake/src/Apple.cpp" "CMakeFiles/runUnitTests.dir/src/Apple.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/Apple.cpp.o.d"
   "/home/tom/snake/src/Apple/AppleCreator.cpp" "CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/Apple/AppleCreator.cpp.o.d"
   "/home/tom/snake/src/Apple/AppleDrawer.cpp" "CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/Apple/AppleDrawer.cpp.o.d"
   "/home/tom/snake/src/Apple/AppleGO.cpp" "CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/Apple/AppleGO.cpp.o.d"

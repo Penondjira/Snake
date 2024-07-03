@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/snake.dir/src/Apple.cpp.o"
-  "CMakeFiles/snake.dir/src/Apple.cpp.o.d"
   "CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o"
   "CMakeFiles/snake.dir/src/Apple/AppleCreator.cpp.o.d"
   "CMakeFiles/snake.dir/src/Apple/AppleDrawer.cpp.o"
