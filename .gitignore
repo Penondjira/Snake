@@ -1,7 +1,7 @@
 .cache
-#*.o
-#CMakeCache.txt
-#CMakeFiles/
-#cmake_install.cmake
-#Makefile
-#CTestTestfile.cmake
+*.o
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
