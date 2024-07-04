@@ -1,8 +1,11 @@
+#include <SDL2/SDL_image.h>
+#include "deleteMePngExper.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_timer.h>
 #include "AppleEatEvent.h"
 #include "SDLInit.h"
 #include <SDL2/SDL_video.h>
+#include <SDL_render.h>
 #include <tuple>
 #include "EventPoller.h"
 #include "Quitter.h"
@@ -35,6 +38,10 @@ int main(int argc, char* argv[]) {
     AppleCreator appleCreator = AppleCreator(winWidth, winHeight, squareLength, &appleEatChannel, ren, snakePos);
     AppleGO* apple = appleCreator.CreateApple();
 
+
+    DeleteMePngExper deleteMePngExper = DeleteMePngExper(win, ren);
+    SDL_Texture* texture = deleteMePngExper.PrepImage("/home/tom/snake/assets/face.png");
+
     while (true) {
         int quit = eventPoller.PollBufferedEvents();
         if (quit) {
@@ -42,11 +49,14 @@ int main(int argc, char* argv[]) {
         }
         SDL_SetRenderDrawColor(ren, 0, 0, 0, 255);  
         SDL_RenderClear(ren); //draw with this color on top of everything
+        SDL_RenderCopy(ren, texture, NULL, NULL);
         snake->Update();
         apple->Update();
         SDL_RenderPresent(ren); //switches front buffer with back buffer
         SDL_Delay(125);
     }
+    SDL_DestroyTexture(texture);
+    IMG_Quit();
 
     delete snake;
     delete apple;

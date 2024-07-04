@@ -103,6 +103,12 @@
 },
 {
   "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/deleteMePngExper.cpp.o -c /home/tom/snake/src/deleteMePngExper.cpp",
+  "file": "/home/tom/snake/src/deleteMePngExper.cpp",
+  "output": "CMakeFiles/snake.dir/src/deleteMePngExper.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -o CMakeFiles/snake.dir/src/main.cpp.o -c /home/tom/snake/src/main.cpp",
   "file": "/home/tom/snake/src/main.cpp",
   "output": "CMakeFiles/snake.dir/src/main.cpp.o"
@@ -274,5 +280,11 @@
   "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o -c /home/tom/snake/src/Snake/TailRemover.cpp",
   "file": "/home/tom/snake/src/Snake/TailRemover.cpp",
   "output": "CMakeFiles/runUnitTests.dir/src/Snake/TailRemover.cpp.o"
+},
+{
+  "directory": "/home/tom/snake/build",
+  "command": "/usr/bin/c++  -I/home/tom/snake/include -I/home/tom/snake/include/Apple -I/home/tom/snake/include/Snake -isystem /usr/include/SDL2 -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runUnitTests.dir/src/deleteMePngExper.cpp.o -c /home/tom/snake/src/deleteMePngExper.cpp",
+  "file": "/home/tom/snake/src/deleteMePngExper.cpp",
+  "output": "CMakeFiles/runUnitTests.dir/src/deleteMePngExper.cpp.o"
 }
 ]
